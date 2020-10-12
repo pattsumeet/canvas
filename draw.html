@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+    canvas{border:1px solid}
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .controls {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+  </style>  
+</head>
+
+<body>
+  <!-- <button id="undo">undo</button><br> -->
+  <div class="container">
+    <div class="controls">
+      <button id="pen" onclick="switchMode('pen', 'highlight', 'eraser')"><img alt="Pen" src="icon/pen.svg"></button>
+      <button id="highlight" onclick="switchMode('highlight', 'pen', 'eraser')"><img alt="Highlighter" src="icon/highlight.svg"></button>
+      <button id="eraser" onclick="switchMode('eraser', 'highlight', 'pen')"><img alt="Eraser" src="icon/eraser.svg"></button>
+
+      <div>
+        <span> Line width : </span>
+        <select id="selWidth">
+            <option value="1" selected="selected">1</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+        </select>
+      </div>
+
+      <div>
+        <span> Color : </span>
+        <select id="selColor">
+            <option value="black">black</option>
+            <option value="blue" selected="selected">blue</option>
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="yellow">yellow</option>
+            <option value="gray">gray</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <canvas id="paint"></canvas>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="draw.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Draw Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Draw-Copy" stroke="#505050" stroke-width="1.7">
+            <path d="M12.0197319,31.4105292 L12.7295275,27.3832002 C12.7473398,27.2821344 12.7958192,27.1889973 12.8683849,27.1164316 L27.2525835,12.732233 C28.2288942,11.7559223 29.8118066,11.7559223 30.7881174,12.732233 L32.2023309,14.1464466 C33.1786417,15.1227573 33.1786417,16.7056698 32.2023309,17.6819805 L17.8180472,32.0662642 C17.7455344,32.1387771 17.6524787,32.18724 17.5514944,32.2050836 L13.5262014,32.9163388 C12.8191836,33.0412664 12.1447585,32.569389 12.0198309,31.8623711 C11.993423,31.7129176 11.9933895,31.5599943 12.0197319,31.4105292 Z" id="icon_draw-copy"></path>
+        </g>
+    </g>
+</svg>
